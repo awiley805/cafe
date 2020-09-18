@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAZikW6LDn4-SCP-zAr6fL1WYvaPlQI9M&callback=initMap&libraries=&v=weekly"
+    defer
+  ></script>
+  <script src="https://kit.fontawesome.com/f2d3b38b58.js" crossorigin="anonymous"></script>
+  <title>The Cafe</title>
+</head>
+
+<body>
+ 
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#coffee">Coffee</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section>
+  <div class="showcase-container">
+    <div class="logo">
+      <h1>The Cafe</h1>
+    </div>
+    <div class="hours">
+      <p>Monday - Friday: 6am - 9pm</p>
+      <p>Saturday - Sunday: 6am - 6pm</p>
+      <p>123 South Congree Ave. Austin, TX 78704</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="header">
+      <h2>About Our Cafe</h2>
+      <p class="underline"></p>
+    </div>
+    <div class="about-statement">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="about-quote">
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate!"</p>
+        <p>Chef, Coffeeist and Owner</p>
+        <p>--Liam Brown</p>
+    </div>
+    <div class="about-img"></div>
+  </div>
+</section>
+
+<section id="menu">
+  <div class="container">
+    <div class="header">
+      <h2>Our Menu</h2>
+      <p class="underline"></p>
+    </div>
+    <div class="btn-container">
+      <button class="btn" type="button" data-id="all">All</button>
+      <button class="btn" type="button" data-id="breakfast">Breakfast</button>
+      <button class="btn" type="button" data-id="lunch">Lunch</button>
+      <button class="btn" type="button" data-id="dessert">Desserts</button>
+    </div>
+    <div class="menu-items"></div>
+    <div class="menu-img"></div>
+  </div>
+</section>
+
+<section id="coffee">
+  <div class="container">
+    <div class="header">
+      <h2>Our Coffees</h2>
+      <p class="underline"></p>
+    </div>
+    <div class="coffee-menu">
+      <button class= "accordion is-open" type="button" name="button">Light Roast</button>
+        <div class="panel">
+          <h3>Bright Sky Blend</h3>
+          <h4>Light and Easy</h4>
+          <p>"Can I play, Daddy?"</p>
+          <h3>Sunrise Blend</h3>
+          <h4>Smooth with Hints of Chocolate</h4>
+          <p>"Don't hurt me."</p>
+          <h3>Veranda Blend</h3>
+          <h4>Mellow and Soft</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <button class= "accordion is-open" type="button" name="button">Medium Roast</button>
+          <div class="panel">
+            <h3>Colombia Roast</h3>
+            <h4>Bold and Complex</h4>
+            <p>Bring 'em on!</p>
+            <h3>Kenya Roast</h3>
+            <h4>Juciy and Relaxing</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <h3>Fall Blend</h3>
+            <h4>Hearty with Spice Notes</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <h3>Breakfast Blend</h3>
+            <h4>Bright and Tangy</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <h3>Golden Turmeric</h3>
+            <h4>Earth and Warm Spice</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+          <button class= "accordion is-open" type="button" name="button">Dark Roast</button>
+            <div class="panel">
+              <h3>Italian Roast</h3>
+              <h4>Roasty and Sweet Flavor</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <h3>French Roast</h3>
+              <h4>Intense and Smokey</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <h3>Morning Joe</h3>
+              <h4>Stout and Refined</h4>
+              <p>Do or die!</p>
+              <h3>Nitro!</h3>
+              <h4>Only for the Hardcore!!</h4>
+              <p>"I am Death incarnate!"</p>
+            </div>       
+    </div>
+    <div class="coffee-img"></div>
+  </div>
+</section>
+  
+<section>
+  <div class="container">
+    <div class="header">
+      <h2>Where to Find Us</h2>
+      <p class="underline"></p>
+    </div>
+    <div id="map"></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="header">
+      <h2>Contact Us</h2>
+      <p class="underline"></p>
+    </div>
+    <div class="contact-para">
+      <p>FYI! We offer full-service catering for any event, large or small. We 
+        understand your needs and we will cater the food to satisfy the biggest 
+        criteria of the all, look and taste!
+      </p>
+      <p>Contact us for more information</p>
+    </div>
+    <div class="contact-form">
+      <form>
+        <div class="form-control">
+          <input type="text" class="name" placeholder="Your name">
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <input type="text" class="email" placeholder="Your email address">
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <input type="text" class="phone" placeholder="Your phone number">
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">      
+          <input type="text" class="message" placeholder="Your message">
+          <small>Error Message</small>
+        </div>
+        <button>Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="social">
+      <p>Follow us on Social Media</p>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-snapchat-ghost"></i>
+    </div>
+    <div class="copy">
+      <p>Copyright &#169; Sloat Technologies</p>
+    </div>
+  </div> 
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
+
